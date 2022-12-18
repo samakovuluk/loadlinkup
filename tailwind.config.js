@@ -1,9 +1,14 @@
 module.exports = {
+  plugins: [
+    require('flowbite/plugin')
+  ],
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
+    './node_modules/flowbite/**/*.js',
+    './node_modules/flowbite-react/**/*.js',
     './components/**/*.{js,ts,jsx,tsx}'
   ],
-  darkMode: 'class',
+  
   theme: {
     extend: {
       colors: {

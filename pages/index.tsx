@@ -4,6 +4,8 @@ import { Product } from 'types';
 import { GetStaticPropsResult } from 'next';
 import Hero from '@/components/Hero';
 import Features from '@/components/Features';
+import Cta from '@/components/Cta';
+import Faq from '@/components/Faq';
 
 interface Props {
   products: Product[];
@@ -13,8 +15,10 @@ export default function PricingPage({ products }: Props) {
   return(
    <div>
     <Hero></Hero>
+    <Cta></Cta>
     <Features></Features>
     <Pricing products={products} />
+    <Faq></Faq>
   </div>
   );
 }

@@ -19,7 +19,7 @@ export default function Layout({ children, meta: pageMeta }: Props) {
     cardImage: '/og.png',
     ...pageMeta
   };
-
+//
   return (
     <>
       <Head>
@@ -39,10 +39,12 @@ export default function Layout({ children, meta: pageMeta }: Props) {
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.cardImage} />
         <script type="text/javascript" src="/script.js"></script>
+        
+        <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
       </Head>
       <Navbar />
         <main id="skip">{children}</main>
       <Footer />
-    </>
+    </> 
   );
 }

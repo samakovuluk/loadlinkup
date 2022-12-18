@@ -47,7 +47,7 @@ export default function Pricing({ products }: Props) {
 
   if (!products.length)
     return (
-      <section className="bg-white">
+      <section id='pricing' className="bg-white">
         <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
@@ -67,7 +67,7 @@ export default function Pricing({ products }: Props) {
     );
   
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section  id='pricing' className="bg-white dark:bg-gray-900">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Designed for business teams like yours</h2>
