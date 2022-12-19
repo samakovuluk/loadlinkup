@@ -28,6 +28,7 @@ export default function DashboardLayout({ children, meta: pageMeta }: Props) {
                 <title>{meta.title}</title>
                 <meta name="robots" content="follow, index" />
                 <link href="/favicon.ico" rel="shortcut icon" />
+                <script type="text/javascript" src="/script.js"></script>
             </Head>
             <NavbarHeader></NavbarHeader>
 

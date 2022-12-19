@@ -38,7 +38,7 @@ export default function Layout({ children, meta: pageMeta }: Props) {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.cardImage} />
-        <script type="text/javascript" src="/script.js"></script>
+        c
         
         <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
       </Head>
